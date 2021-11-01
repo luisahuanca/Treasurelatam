@@ -207,7 +207,7 @@ body {
 }
 
 .img1 {
-    background-image: url(https://i.etsystatic.com/24700344/r/il/39f6c7/2800733248/il_fullxfull.2800733248_pu1q.jpg);
+    background-image: url(./img/sticker.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -219,7 +219,7 @@ body {
 }
 
 .img2 {
-    background-image: url(https://allinkpop.com/pub/media/catalog/product/cache/6e0c7d68bc3a7847c29d481c625707b1/t/r/treasure_chapt3_002.jpg);
+    background-image: url(./img/albumtreasure.jpg);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -231,7 +231,7 @@ body {
 }
 
 .img3 {
-    background-image: url(https://ygselect.com/board/201128/m/m_02.jpg);
+    background-image: url(./img/hoodie.jpg);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -243,7 +243,7 @@ body {
 }
 
 .img4 {
-    background-image: url(https://kshoppestore.com/wp-content/uploads/2021/07/214366114_341841284094330_3466780981480121445_n.jpg);
+    background-image: url(./img/revista.jpg);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -466,3 +466,4 @@ body {
     }
    
 } 
+
