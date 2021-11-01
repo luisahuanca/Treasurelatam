@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.relative {
+    position: relative;
+}
+
+.background_header {
+    background-color: rgb(18, 21, 27);
+    height: 79px;
+    width: 100vw;
+    background-position: center;
+    padding: 20px;
+   
+}
+
+.overflow {
+    overflow-x: hidden;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.general_box {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.superbox2 {
+    background-color: rgb(18, 21, 27);
+    max-width: 100%;
+}
+
+.color1 {
+    color: white;
+}
+
+.caja {
+    margin-left: 50px;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 27px;
+}
+
+.img__logo {
+    background-image: url(img/treasurelogo.png);
+    background-size: cover;
+    height: 110px;
+    width: 120px;
+    position: relative;
+    bottom: 35px;
+}
+
+.position__iniciosesion {
+    position: relative;
+    top: 27px;
+ }
+ .jumbotron {
+     background-color: rgb(123, 186, 228) ;
+     width: 100vw;
+     height: 685px;
+ }
+
+ .grid_container {
+     display: grid;
+     grid-template-columns: /*repeat(2,minmax(0,1fr))*/ 1fr 1fr;
+
+ }
+
+ .jumbobox {
+     margin-top: 5%;
+     margin-left: 3%;
+     margin-right: 3%;
+     /*height: 80vh;*/
+     width: 510px;
+     
+ }
+
+ .caja__primera {
+     margin-top: 10%;
+     display: flex;
+     background-color:rgb(18, 21, 27) ;
+     border-radius: 1rem;
+     height: 2rem;
+     width: 333px;
+     align-items: center;
+     padding: 2px;
+ }
+ .h1 {
+     font-size: 2em;
+ }
+ .h2 {
+     margin-top: 10px ;
+     font-size: 1em;
+ }
+ .cabeza1 {
+     margin-left: 20px;
+ }
+ .title {
+     font-size: 44pt;
+     padding-top: 50px;
+     padding-bottom: 40px
+    }
+.jumboparrafo {
+    margin-top: 2%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.formulario {
+    margin-top: 20px;
+    display: flex;
+}
+.input1 {
+    position: relative;
+    width: 410px;
+    height: 45px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-color:rgb(47, 47, 88);
+
+}
+
+.boton__enviar {
+    background-color: rgb(18, 21, 27);
+    color: white;
+    position: relative;
+    margin-left: 10px;
+    height: 45px;
+    width: 70px;
+    border-color: rgb(18, 21, 27) ;
+    border-radius: 5px;
+}
+ 
+.parrafofinal_jumbotron {
+    margin-top: 3%;
+    max-width: 80%;
+
+}
+
+.jumboimg {
+     background-image: url(img/teume.jpg);
+     height: 550px;
+     width: 120%;
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+
+.sec {
+     background-color: rgb(18, 21, 27);
+     height: 100px;
+     width:100%;
+     background-position: center;
+     position: static;
+     text-align: center;
+     padding-top: 120px;
+     padding-bottom: 120px;
+     margin-right: 100px;
+     
+}
+
+
+.cajita {
+     margin: 10px;
+     margin-bottom: 120px;
+     border-radius: 10px;
+     display: inline-block;
+     
+     
+}
+
+.sec1 {
+     height: 400px ;
+     width: 18%;
+     background-color: white;
+     text-align: center;
+     position: relative;
+     left: 11%; 
+     
+}
+
+.box-shadow{
+    box-shadow: 9px 8px 24px -11px rgba(0,0,0,0.68);
+-webkit-box-shadow: 9px 8px 24px -11px rgba(0,0,0,0.68);
+-moz-box-shadow: 9px 8px 24px -11px rgba(0,0,0,0.68);
+}
+
+.img1 {
+    background-image: url(./img/sticker.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+.img2 {
+    background-image: url(./img/albumtreasure.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+.img3 {
+    background-image: url(./img/hoodie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+.img4 {
+    background-image: url(./img/revista.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 336px;
+
+}
+.descripcion_catalogo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.title__art {
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.precio {
+    margin-left:3.5rem;
+    font-size: 22px;
+}
+
+.img__final {
+    background-image: url(https://wallpaperaccess.com/full/4862624.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 597px;
+
+}
+
+.sec2 {
+    background-color: rgb(123, 186, 228);
+   /*padding: 100px 50px 50px 60px;*/
+    color: white;
+    padding-left: 5%;
+    padding-right: 10% ;
+
+
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.container2 {
+    margin: 0 0 10px 0;
+}
+
+.title_container2 {
+    margin-top: 15%;
+    font-size: 1.5em;
+}
+.sub_container2 {
+    margin-top: 5%;
+    font-size: 3em;
+}
+.parrafo_container2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*---------------------------------------------------------*/
+.container__3 {
+    background-color: white;
+    max-width: 100%;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+}
+
+.grid3 {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 2rem;
+}
+
+.container__5 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    grid-column: span 2/span 2;
+}
+
+.grid4__1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.grid4__2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.title__grid4 {
+    color: rgb(34, 32, 32);
+}
+
+.opciones {
+    color: rgb(31, 29, 29) ;
+    padding-top: 1rem;
+}
+
+.container__final {
+    background-color: white;
+    height: 24px;
+    margin-top: 3rem;
+    padding: 0 0 4rem 0;
+    text-align: center;
+}
+.copyright {
+    border-top-width: 10px;
+    border-color: gray;
+}
+
+.icono {
+    background-color: transparent;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    
+}
+.box__1 {
+    flex-direction: column;
+}
+
+/*-----------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    
+    .background_header{
+        height: 425px;
+        width: 100vw;
+    }
+    .container { 
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.7rem;
+    }
+    .caja {
+        height: 177px;
+        width: 500px;
+        position: relative;
+        top: -42px;
+        right: 15px;
+    } 
+
+    .position__iniciosesion {
+        position: relative;
+        top: -11px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    .img__logo {
+        background-size: cover;
+        height: 177px;
+        width: 139px;
+    }
+
+    .jumbotron {
+        height: 1000px;
+        
+    }
+   
+    .grid_container {
+        grid-template-columns: 1fr;
+
+    }
+    .jumboimg {
+        height: 550px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        right: 3%;
+    }
+    .sec {
+        margin-top: 4%;
+    }
+    .sec1 {
+        width: 36%;
+    }
+
+    .grid2 {
+        grid-template-columns: 1fr;
+    }
+
+    .img__final {
+        background-size: contain;
+        height: 500px;
+        
+    }
+    .grid3 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid4 {
+        grid-template-columns: 1fr;
+    }
+   
+} 
+
